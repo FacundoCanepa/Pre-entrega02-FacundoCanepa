@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: sans-serif;;
+}
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ol {
+  list-style: none; }
+
+ul {
+  list-style: none; }
+
+html {
+  font-size: 62.5%; }
+
+header{
+  background-color: #DBCFC3;
+  height: 7rem;
+  align-content: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  font-size: 2.5rem;
+  align-items: center;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.container img {
+  display: block;
+}
+
+.container span {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color:#E0C9BC;
+  width: 2rem;
+  text-align: center;
+  border-radius: 100%;
+} 
+.main {
+  background-color:  #FDBC96  ;
+  min-height: 87rem;
+}
+.divItemListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.divItemListContainer ul{
+  margin: 3rem;
+  border: 2px solid black;
+  height: 40rem;
+  width: 40rem;
+  background-color: #E0C9BC;
+}
+.ItemListContainer li {
+  font-size: 2rem;
+  text-align: center;
+}
+.ItemListContainer li img {
+  width: 25rem; 
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 25%;
+}
+.ItemListContainer li button {
+  width: 20rem;
+  height: 3rem;
+}
+
+main div {
+  padding-top: 5rem;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item ul li{
+  padding-bottom: 1rem ;
+}
+.item img {
+  width: 70rem;
+  height: 50rem;
+  object-fit: cover;
+}
+.item h1 {
+  font-size: 5rem;
+}
+.item  h3 {
+  font-size: 2rem;
+}
+.footer {
+  background-color: #F6EAC2;
+  height: 5rem;
+
+}
+.footer h2 {
+  text-align: center;
+}
