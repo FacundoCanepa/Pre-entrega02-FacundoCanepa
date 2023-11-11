@@ -45,7 +45,6 @@ function Formulario({ mostrarFinalizarCompra, setMostrarFinalizarCompra, datosFo
             updateUsuario(datos);
             setFormularioEnviado(true);
             setMostrarFinalizarCompra(true);
-            console.log(datos)
         }
     }
 
