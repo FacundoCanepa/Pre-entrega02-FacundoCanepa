@@ -112,3 +112,69 @@ main div {
 .footer h2 {
   text-align: center;
 }
+
+.displayNone {
+  display: none;
+}
+
+.cartWidget {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
+.cartWidget img {
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.cartWidget ul {
+  text-align: center;
+}
+.cartWidget h2 {
+  font-size: 2.5rem;
+}
+.cartWidget h3 {
+  font-size: 2rem;
+}
+.cartWidget button {
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+.Compras {
+  text-align: center;
+  font-size: 5rem;
+}
+.cartWidget-end{
+  text-align: center;
+  padding: 1rem;
+}
+.cartWidget-end h2{
+  font-size: 5rem;
+  padding-bottom: 3rem;
+}
+.Formulario {
+  display: flex;
+  padding: 0rem;
+  justify-content: center;
+}
+.Formulario-{
+  display: flex;
+  flex-direction: column;
+}
+.Formulario- input {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.b-Cart{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.b-Cart button {
+  padding: 2rem;
+  background-color: #E0C9BC;
+}

@@ -1,9 +1,11 @@
+import CartWidget from "../components/CartWidget"
+
 
 const Carrito = () => {
     return (
-        <main>
-            <h1>carrito</h1>
-        </main>
+        <div>
+            <CartWidget></CartWidget>
+        </div>
         )
     }
 
